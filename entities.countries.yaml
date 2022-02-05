@@ -1,0 +1,82 @@
+---
+countries:
+
+- country: US
+  name: United States of America
+  region: North America
+
+- country: CA
+  name: Canada
+  region: North America
+
+- country: MX
+  name: Mexico
+  region: North America
+
+- country: CR
+  name: Costa Rica
+  region: North America
+
+- country: KY
+  name: Cayman Islands
+  region: North America
+
+- country: AU
+  name: Australia
+  region: Oceania
+
+- country: NZ
+  name: New Zealand
+  region: Oceania
+
+- country: AR
+  name: Argentina
+  region: South America
+
+- country: CL
+  name: Chile
+  region: South America
+
+- country: EC
+  name: Ecuador
+  region: South America
+
+- country: PE
+  name: Peru
+  region: South America
+
+- country: VZ
+  name: Venezuela
+  region: South America
+
+- country: BO
+  name: Bolivia
+  region: South America
+
+- country: BR
+  name: Brazil
+  region: South America
+
+- country: CO
+  name: Colombia
+  region: South America
+
+- country: PY
+  name: Paraguay
+  region: South America
+
+- country: UY
+  name: Uruguay
+  region: South America
+
+- country: TT
+  name: Trinidad & Tobago
+  region: South America
+
+- country: PA
+  name: Panama
+  region: South America
+
+
+
+
