@@ -1,82 +1,426 @@
 ---
 countries:
 
-- country: US
-  name: United States of America
-  region: North America
+- country: South Africa
+  cc: za
+  re: ^A[A-H][A-HJ-NPR-Z1-90]$
 
-- country: CA
-  name: Canada
-  region: North America
+- country: Ivory Coast
+  cc: ci
+  re: ^A[JK][A-HJ-NPR-Z1-90]$
 
-- country: MX
-  name: Mexico
-  region: North America
+- country: Lesotho
+  cc: ls
+  re: ^A[LM][A-HJ-NPR-Z1-90]$
 
-- country: CR
-  name: Costa Rica
-  region: North America
+- country: Botswana
+  cc: bw
+  re: ^A[NP][A-HJ-NPR-Z1-90]$
 
-- country: KY
-  name: Cayman Islands
-  region: North America
+- country: Namibia
+  cc: nb
+  re: ^A[RS][A-HJ-NPR-Z1-90]$
 
-- country: AU
-  name: Australia
-  region: Oceania
+- country: Madagascar
+  cc: null
+  re: ^A[TU][A-HJ-NPR-Z1-90]$
 
-- country: NZ
-  name: New Zealand
-  region: Oceania
+- country: Mauritius
+  cc: null
+  re: ^A[VW][A-HJ-NPR-Z1-90]$
 
-- country: AR
-  name: Argentina
-  region: South America
+- country: Tunisia
+  cc: tn
+  re: ^A[XY][A-HJ-NPR-Z1-90]$
 
-- country: CL
-  name: Chile
-  region: South America
+- country: Cyprus
+  cc: cy
+  re: ^A[Z1][A-HJ-NPR-Z1-90]$
 
-- country: EC
-  name: Ecuador
-  region: South America
+- country: Zimbabwe
+  cc: null
+  re: ^A[23][A-HJ-NPR-Z1-90]$
 
-- country: PE
-  name: Peru
-  region: South America
+- country: Mozambique
+  cc: mz
+  re: ^A[45][A-HJ-NPR-Z1-90]$
 
-- country: VZ
-  name: Venezuela
-  region: South America
+- country: Angola
+  cc: null
+  re: ^B[AB][A-HJ-NPR-Z1-90]$
 
-- country: BO
-  name: Bolivia
-  region: South America
+- country: Kenya
+  cc: ke
+  re: ^B[FG][A-HJ-NPR-Z1-90]$
 
-- country: BR
-  name: Brazil
-  region: South America
+- country: Nigeria
+  cc: ni
+  re: ^B[L][A-HJ-NPR-Z1-90]$
 
-- country: CO
-  name: Colombia
-  region: South America
+- country: Algeria
+  cc: null
+  re: ^B[R][A-HJ-NPR-Z1-90]$
 
-- country: PY
-  name: Paraguay
-  region: South America
+- country: Libya
+  cc: ly
+  re: ^B[34][A-HJ-NPR-Z1-90]$
 
-- country: UY
-  name: Uruguay
-  region: South America
+- country: Egypt
+  cc: eg
+  re: ^C[AB][A-HJ-NPR-Z1-90]$
 
-- country: TT
-  name: Trinidad & Tobago
-  region: South America
+- country: Morocco
+  cc: null
+  re: ^C[FG][A-HJ-NPR-Z1-90]$
 
-- country: PA
-  name: Panama
-  region: South America
+- country: Zambia
+  cc: null
+  re: ^B[LM][A-HJ-NPR-Z1-90]$
 
+- country: China
+  cc: cn
+  re: ^H[A-HJ-NPR-Z1-90][A-HJ-NPR-Z1-90]$
 
+- country: Japan
+  cc: jp
+  re: ^J[A-HJ-NPR-Z1-90][A-HJ-NPR-Z1-90]$
 
+- country: China
+  cc: cn
+  re: ^L[A-HJ-NPR-Z1-90][A-HJ-NPR-Z1-90]$
 
+- country: Israel
+  cc: null
+  re: ^K[F-H][A-HJ-NPR-Z1-90]$
+
+- country: South Korea
+  cc: kr
+  re: ^K[L-NPR][A-HJ-NPR-Z1-90]$
+
+- country: Jordan
+  cc: jo
+  re: ^K[ST][A-HJ-NPR-Z1-90]$
+
+- country: India
+  cc: in
+  re: ^M[A-E][A-HJ-NPR-Z1-90]$
+
+- country: Indonesia
+  cc: id
+  re: ^M[F-HJ-K][A-HJ-NPR-Z1-90]$
+
+- country: Thailand
+  cc: th
+  re: ^M[L-NPR][A-HJ-NPR-Z1-90]$
+
+- country: Myanmar
+  cc: null
+  re: ^M[S][A-HJ-NPR-Z1-90]$
+
+- country: Mongilia
+  cc: null
+  re: ^M[U][A-HJ-NPR-Z1-90]$
+
+- country: Kazakhstan
+  cc: kz
+  re: ^M[X][A-HJ-NPR-Z1-90]$
+
+- country: India
+  cc: in
+  re: ^M[1-6][A-HJ-NPR-Z1-90]$
+
+- country: Iran
+  cc: ir
+  re: ^N[A-E][A-HJ-NPR-Z1-90]$
+
+- country: Pakistan
+  cc: in
+  re: ^N[F-G][A-HJ-NPR-Z1-90]$
+
+- country: Iraq
+  cc: iq
+  re: ^N[J][A-HJ-NPR-Z1-90]$
+
+- country: Turkey
+  cc: null
+  re: ^N[L-NPR][A-HJ-NPR-Z1-90]$
+
+- country: Uzbekistan
+  cc: uz
+  re: ^N[ST][A-HJ-NPR-Z1-90]$
+
+- country: Azerbaijan
+  cc: az
+  re: ^N[V][A-HJ-NPR-Z1-90]$
+
+- country: Armenia
+  cc: null
+  re: ^N[Y][A-HJ-NPR-Z1-90]$
+
+- country: Iran
+  cc: ir
+  re: ^N[1-5][A-HJ-NPR-Z1-90]$
+
+- country: Phillippines
+  cc: ph
+  re: ^P[A-C][A-HJ-NPR-Z1-90]$
+
+- country: Singapore
+  cc: sg
+  re: ^P[FG][A-HJ-NPR-Z1-90]$
+
+- country: Malaysia
+  cc: null
+  re: ^P[L-NPR][A-HJ-NPR-Z1-90]$
+
+- country: Bangladesh
+  cc: in
+  re: ^P[ST][A-HJ-NPR-Z1-90]$
+
+- country: United Arab Emirate
+  cc: ua
+  re: ^R[AB][A-HJ-NPR-Z1-90]$
+
+- country: Taiwan
+  cc: tw
+  re: ^R[F-K][A-HJ-NPR-Z1-90]$
+
+- country: Vietnam
+  cc: vn
+  re: ^R[L-N][A-HJ-NPR-Z1-90]$
+
+- country: Laos
+  cc: la
+  re: ^R[A-E][A-HJ-NPR-Z1-90]$
+
+- country: Saudi Arabia
+  cc: sa
+  re: ^R[ST][A-HJ-NPR-Z1-90]$
+
+- country: Russia
+  cc: ru
+  re: ^R[U-W][A-HJ-NPR-Z1-90]$
+
+- country: Hongkong
+  cc: hk
+  re: ^R[1][A-HJ-NPR-Z1-90]$
+
+- country: United Kingdom
+  cc: null
+  re: ^S[A-HJ-M][A-HJ-NPR-Z1-90]$
+
+- country: Germany
+  cc: de
+  re: ^S[NPR-T][A-HJ-NPR-Z1-90]$
+
+- country: Poland
+  cc: pl
+  re: ^S[U-Z][A-HJ-NPR-Z1-90]$
+
+- country: Latvia
+  cc: lv
+  re: ^S[12][A-HJ-NPR-Z1-90]$
+
+- country: South Ossetia
+  cc: null
+  re: ^S[3][A-HJ-NPR-Z1-90]$
+
+- country: Spain
+  cc: es
+  re: ^U[A-C][A-HJ-NPR-Z1-90]$
+
+- country: Denmark
+  cc: dk
+  re: ^U[HJ-M][A-HJ-NPR-Z1-90]$
+
+- country: Ireland
+  cc: ie
+  re: ^U[NPR][A-HJ-NPR-Z1-90]$
+
+- country: Romania
+  cc: ro
+  re: ^U[U-W][A-HJ-NPR-Z1-90]$
+
+- country: Macedonia
+  cc: mc
+  re: ^U[12][A-HJ-NPR-Z1-90]$
+
+- country: Slovakia
+  cc: null
+  re: ^U[5-7][A-HJ-NPR-Z1-90]$
+
+- country: Bosnia & Herzogovina
+  cc: null
+  re: ^U[8-90][A-HJ-NPR-Z1-90]$
+
+- country: Austria
+  cc: at
+  re: ^V[A-E][A-HJ-NPR-Z1-90]$
+
+- country: France
+  cc: fr
+  re: ^V[F-NPR][A-HJ-NPR-Z1-90]$
+
+- country: Spain
+  cc: es
+  re: ^V[S-W][A-HJ-NPR-Z1-90]$
+
+- country: Croatia
+  cc: hr
+  re: ^V[3-5][A-HJ-NPR-Z1-90]$
+
+- country: Estonia
+  cc: ee
+  re: ^V[6-8][A-HJ-NPR-Z1-90]$
+
+- country: Germany
+  cc: de
+  re: ^W[A-HJ-NPR-Z1-90][A-HJ-NPR-Z1-90]$
+
+- country: Bulgaria
+  cc: bg
+  re: ^X[A-C][A-HJ-NPR-Z1-90]$
+
+- country: Russia
+  cc: ru
+  re: ^X[D-E][A-HJ-NPR-Z1-90]$
+
+- country: Greece
+  cc: gr
+  re: ^X[F-H][A-HJ-NPR-Z1-90]$
+
+- country: Russia
+  cc: ru
+  re: ^X[JK][A-HJ-NPR-Z1-90]$
+
+- country: Netherlands
+  cc: nl
+  re: ^X[L-NPR][A-HJ-NPR-Z1-90]$
+
+- country: Russia
+  cc: ru
+  re: ^X[S-W][A-HJ-NPR-Z1-90]$
+
+- country: Luxembourg
+  cc: bg
+  re: ^X[XY][A-HJ-NPR-Z1-90]$
+
+- country: Russia
+  cc: ru
+  re: ^X[Z1-90][A-HJ-NPR-Z1-90]$
+
+- country: Belgium
+  cc: be
+  re: ^Y[A-E][A-HJ-NPR-Z1-90]$
+
+- country: Finland
+  cc: fi
+  re: ^Y[F-HJ-K][A-HJ-NPR-Z1-90]$
+
+- country: Malta
+  cc: mt
+  re: ^Y[N][A-HJ-NPR-Z1-90]$
+
+- country: Sweden
+  cc: se
+  re: ^Y[S-W][A-HJ-NPR-Z1-90]$
+
+- country: Norway
+  cc: no
+  re: ^Y[X-Z1-2][A-HJ-NPR-Z1-90]$
+
+- country: Belarus
+  cc: null
+  re: ^Y[3-5][A-HJ-NPR-Z1-90]$
+
+- country: Ukraine
+  cc: ua
+  re: ^Y[6-8][A-HJ-NPR-Z1-90]$
+
+- country: Unites States Of America
+  cc: us
+  re: ^1[A-HJ-NPR-Z1-90][A-HJ-NPR-Z1-90]$
+
+- country: Canada
+  cc: ca
+  re: ^2[A-HJ-NPR-Z1-5][A-HJ-NPR-Z1-90]$
+
+- country: Mexico
+  cc: mx
+  re: ^3[A-HJ-NPR-X][A-HJ-NPR-Z1-90]$
+
+- country: Domenican Republic
+  cc: do
+  re: ^3[5][A-HJ-NPR-Z1-90]$
+
+- country: Honduras
+  cc: hd
+  re: ^3[6][A-HJ-NPR-Z1-90]$
+
+- country: Panama
+  cc: pa
+  re: ^2[7][A-HJ-NPR-Z1-90]$
+
+- country: Puerto Rico
+  cc: pr
+  re: ^2[8-9][A-HJ-NPR-Z1-90]$
+
+- country: Unites States Of America
+  cc: us
+  re: ^4[A-HJ-NPR-Z1-90][A-HJ-NPR-Z1-90]$
+
+- country: Unites States Of America
+  cc: us
+  re: ^5[A-HJ-NPR-Z1-90][A-HJ-NPR-Z1-90]$
+
+- country: Australia
+  cc: au
+  re: ^6[A-HJ-NPR-X][A-HJ-NPR-Z1-90]$
+
+- country: New Zealand
+  cc: nz
+  re: ^6[Y-Z1][A-HJ-NPR-Z1-90]$
+
+- country: Unites States Of America
+  cc: us
+  re: ^7[A-HJ-NPR-Z1-90][A-HJ-NPR-Z1-90]$
+
+- country: Argentina
+  cc: ar
+  re: ^8[A-E][A-HJ-NPR-Z1-90]$
+
+- country: Chile
+  cc: cl
+  re: ^8[F-G][A-HJ-NPR-Z1-90]$
+
+- country: Ecuador
+  cc: ec
+  re: ^8[LMN][A-HJ-NPR-Z1-90]$
+
+- country: Peru
+  cc: pe
+  re: ^8[ST][A-HJ-NPR-Z1-90]$
+
+- country: Venezuela
+  cc: ve
+  re: ^8[LMN][A-HJ-NPR-Z1-90]$
+
+- country: Bolivia
+  cc: bo
+  re: ^8[2][A-HJ-NPR-Z1-90]$
+
+- country: Brazil
+  cc: br
+  re: ^9[A-E][A-HJ-NPR-Z1-90]$
+
+- country: Columbia
+  cc: co
+  re: ^9[F-G][A-HJ-NPR-Z1-90]$
+
+- country: Uruguay
+  cc: uy
+  re: ^9[S-V][A-HJ-NPR-Z1-90]$
+
+- country: Brazil
+  cc: br
+  re: ^9[3-9][A-HJ-NPR-Z1-90]$
